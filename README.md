@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Raunak Soni
+# All rights reserved. See LICENSE file for details.
 # AI Resume Parser – Simple Guide
 
 This project is a small web app that helps you **analyse resumes automatically**.

@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Raunak Soni
+# All rights reserved. See LICENSE file for details.
 import io
 
 import streamlit as st
@@ -5,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import pdfplumber  # for PDF text extraction [web:120][web:137]
+import pdfplumber  # for PDF text extraction 
 
 from preprocess import clean_resume, extract_skills
 from clustering import cluster_skills, get_embeddings
@@ -24,7 +26,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("🤖 AI Resume Parser")
+st.title("🤖 AI Resume Parser- Raunak Soni")
 st.markdown(
     "**Transform hiring with contextual skill analysis beyond keyword matching**"
 )
@@ -77,14 +79,14 @@ with tab1:
 
             # ----- PDF -----
             if name_lower.endswith(".pdf"):
-                content = extract_text_from_pdf(file)  # [web:120][web:125]
+                content = extract_text_from_pdf(file)  
             # ----- TXT or other text-like -----
             else:
                 raw_bytes = file.read()
                 try:
                     content = raw_bytes.decode("utf-8")
                 except UnicodeDecodeError:
-                    content = raw_bytes.decode("latin-1", errors="ignore")  # [web:135][web:138]
+                    content = raw_bytes.decode("latin-1", errors="ignore")  
 
             # basic guard: empty text from bad PDFs
             if not content.strip():

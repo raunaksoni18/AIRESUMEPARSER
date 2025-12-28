@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Raunak Soni
+# All rights reserved. See LICENSE file for details.
 def score_candidate(resume_skills, job_skills, weights=None):
     """Score candidate based on job requirements."""
     if weights is None:

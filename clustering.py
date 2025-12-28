@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Raunak Soni
+# All rights reserved. See LICENSE file for details.
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 import numpy as np

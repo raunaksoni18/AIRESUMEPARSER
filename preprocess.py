@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Raunak Soni
+# All rights reserved. See LICENSE file for details.
 import re
 import nltk
 from nltk.corpus import stopwords
