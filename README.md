@@ -268,3 +268,8 @@ This README is designed so that a person who has basic Python installed, but no 
 4. Explore the code if they want to learn more.
                                            
                                            Credits: Raunak Soni
+## Live Demo
+
+You can try the app here:
+
+👉 https://airesumeparser-project.streamlit.app/
